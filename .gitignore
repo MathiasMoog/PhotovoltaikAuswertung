@@ -1,0 +1,8 @@
+# Zu ignorierende Dateien für das git Projekt
+#
+# Erzeugte Grafiken
+*.png
+# Erzeugte HTML Seiten
+*.html
+# Temporäre Dateien der Beispiele
+Beispiele/GlobMonBspFeu.csv
