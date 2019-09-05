@@ -1,10 +1,10 @@
-# PhotovoltaikAuswertung
+# PhotovoltaikAuswertung #
 Bewertung der Erträge von Photovoltaik Anlagen anhand der Wetterdaten
 
 
 Mit diesen [GNU Octave](https://octave.org/ "GNU Octave") Skripten lässt sich der monatliche Ertrag eine Photovoltaik Anlage bewerten. 
 
-##Überblick##
+## Überblick ##
 
 Die Basis der Auswertung bilden die monatlichen Ertragsdaten. Diese müssen für die jeweilige Anlagwe bereitgestellt werden. Viele Wechselrichter bieten diese Daten digital am Gerät selbst oder über Web Portale an. Selbst eine manuelle Erfassung der monatlichen Ertragsdaten ist möglich. Zusätzlich werden nur die Anlagengröße und der Standort benötigt.
 
@@ -14,7 +14,7 @@ Die Auswertungen erfolgen rein statistisch. Die Orientierung der Anlage geht nic
 
 Die Auswertung erfolgt durch Octave Skripte, die die Einstrahlungsdaten des Wetterdienstes abfragen und diese mit den Erträgen der Anlage vergleichen. Das Ergebnis des Vergleichs wird in Form einer HTML Seite abgelegt.
 
-##Anwendung##
+## Anwendung ##
 
 Für die Auswertung wird [GNU Octave](https://octave.org/ "GNU Octave") mit dem statistics Paket benötigt.
 
